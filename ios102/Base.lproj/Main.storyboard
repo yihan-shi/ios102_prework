@@ -80,6 +80,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Introduce"/>
                                 <connections>
+                                    <action selector="activateintro:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ak-TP-a82"/>
                                     <action selector="introactionbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p3S-E8-qjb"/>
                                 </connections>
                             </button>

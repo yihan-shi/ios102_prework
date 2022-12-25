@@ -47,7 +47,10 @@ class ViewController: UIViewController {
     }
     
     
-
+    @IBAction func activateintro(_ sender: UIButton) {
+        (sender as UIButton).backgroundColor = UIColor.darkGray
+    }
+    
 
 }
 
